@@ -1,0 +1,30 @@
+body {
+    min-height: 100vh;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;/* padding: 1rem;
+Explanation: This adds padding of 1 rem (relative to the font size of the root element) 
+to all four sides of the element. Padding creates space between the content of the element and its border. */
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+}
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+caption {
+    border: 1px solid black;
+    border-bottom: none;
+    padding: 10px;
+    font-weight: bold;
+    caption-side: top;
+}
